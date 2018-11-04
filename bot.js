@@ -320,7 +320,7 @@ client.unload = command => {
 
 client.on('message', msg => {
   if (msg.content.toLowerCase() === 'sa') {
-    msg.reply('Aleyküm selam,  hoş geldin ^^');
+    msg.reply('Aleyküm selam,  hoş geldin KNK');
   }
 });
 
