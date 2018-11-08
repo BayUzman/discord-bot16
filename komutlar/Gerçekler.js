@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'herkesebendenhıyarvepatates',
-  description: 'hıyar ve patates verir',
-  usage: 'herkesebendenhıyarvepatates'
+  name: 'Hayaller',
+  description: 'Hayaller',
+  usage: 'Hayaller'
 };
