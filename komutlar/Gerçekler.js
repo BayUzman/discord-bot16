@@ -11,11 +11,11 @@ exports.run = (client, message, params) => {
     return message.author.sendEmbed(ozelmesajuyari); }
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
-    .setAuthor('Koca Yürekli ' + message.author.username + ' Hıyar ve Patates Aldı!')
+    .setAuthor('Koca Yürekli ' + message.author.username + ' Yanlış Anlamayın')
     .setColor(3447003)
     .setTimestamp()
     .setDescription('')
-		.setImage(`https://pbs.twimg.com/profile_images/574635145178824704/00txyUUH.jpeg`)
+		.setImage(`https://st2.depositphotos.com/4492993/10820/i/950/depositphotos_108204298-stock-photo-turkish-lira-iron-money-1.jpg`)
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'Hayaller',
-  description: 'Hayaller',
-  usage: 'Hayaller'
+  name: 'Gerçekler',
+  description: 'Gerçekler',
+  usage: 'Gerçekler'
 };
