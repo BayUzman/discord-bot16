@@ -11,11 +11,11 @@ exports.run = (client, message, params) => {
     return message.author.sendEmbed(ozelmesajuyari); }
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
-    .setAuthor('İşte Kanal Linkim: https://www.youtube.com/channel/UCMb92aH04IwzGv0AR1LOR9w?view_as=subscriber')
+    .setAuthor('İşte Kanal Linkim: https://www.youtube.com/channel/UCSgvyhMUM_IctkcgHLK4J7g?view_as=subscriber')
     .setColor(3447003)
     .setTimestamp()
     .setDescription('')
-		.setImage(`https://yt3.ggpht.com/a-/AN66SAyiNMeXOWDr1S7LOt4NU_GD_qjSIjAbr-OC2A=s900-mo-c-c0xffffffff-rj-k-no`)
+		.setImage(`https://i.ytimg.com/vi/XX-w3Juc9tU/maxresdefault.jpg`)
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
@@ -30,5 +30,5 @@ exports.conf = {
 exports.help = {
   name: 'link',
   description: 'Youtube Knalının Linkini Gösterir',
-  usage: '//link'
+  usage: '?link'
 };
