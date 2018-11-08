@@ -11,11 +11,11 @@ exports.run = (client, message, params) => {
     return message.author.sendEmbed(ozelmesajuyari); }
     if (message.channel.type !== 'dm') {
       const sunucubilgi = new Discord.RichEmbed()
-    .setAuthor('Admin Vurdu ve Gol Oldu!')
+    .setAuthor('Yanlış Anlamayın')
     .setColor(3447003)
     .setTimestamp()
     .setDescription('')
-		.setImage(`https://images-ext-1.discordapp.net/external/171uiKxRgITAipvhLwQWRN0gDHVsry0MC9oYnff9Vnw/http/i.imgur.com/O3DHIA5.gif`)
+		.setImage(`http://www.pressturk.com/images/haberler/ankarada-5-milyon-dolar-sahte-para-yakalandi.jpg`)
     return message.channel.sendEmbed(sunucubilgi);
     }
 };
@@ -28,7 +28,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'banned',
-  description: 'Dene ve Gör :D',
-  usage: 'banned'
+  name: 'Hayaller',
+  description: 'Hayaller',
+  usage: 'Hayaller'
 };
